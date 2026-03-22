@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+
+    <!-- linking CSS -->
+     <style>
+         body {
+             font-family:'segeo UI', sans-serif;
+             background-color: #eef2f3;
+             margin: 0;
+             color: #333;
+         }
+
+         header {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            colour: white;
+            text-align: center;
+            padding: 30px;
+         } 
+         header img {
+            width: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+             }
+             nav {
+                background: #333;
+                display: flex;
+                justify-content: center;
+                     }
+             nav a {
+                color: white;
+                 padding: 14px 20px;
+                 text-decoration: none;
+                }
+
+              .navbar a:hover {
+                     background: #4ca1af;
+                 }  
+               section {
+                   padding: 20px;
+                   margin: 20px;
+                   background: white;
+                   border-radius: 10px;
+               } 
+               .skills progress {
+                    width: 100%;
+                    height: 20px;
+               } 
+               .grid {
+                   display: grid;
+                   grid-template-columns: repeat(2, 1fr);
+                   gap: 20px;
+               }
+               footer {
+                   text-align: center;
+                   padding: 10px;
+                   background: #2c3e50;
+                   color: white;
+               }
+              </style> 
+              </head>
+
+              <body>
+
+               <header> 
+
+                <!-- Profile section -->
+                   <img src="image/AnvaikshaPhoto.jpg" alt="Anvaiksha Portrait" width="150" height="150" style="border-radius: 50%;">
+                   <class="profile-img">
+                           <h1>Anvaiksha</h1>
+                           <p>Student | Learner | Future Professional</p>
+                 </header>          
+
+               <!--navigation bar -->
+               <div class="nav">
+                    <a href="#">home</a>
+                    <a href="#">Education</a>
+                    <a href="#">Skills</a>
+                    <a href="#">contact</a>
+                    <a href="#">projects</a>
+               </div>
+               
+               <section>
+                    <h2>About Me</h2>
+                    <p>I am a student passionate about learning new skills.</p>
+                </section> 
+                
+                <section class="skills Progress">
+                    <h2>Skills Progress</h2>
+                    <p>HTMl</p>
+                    <progress value="75" max="100"></progress>
+
+                    <p>Communication</p>
+                    <progress value="85" max="100"></progress>
+                </section>
+
+                           <section class="card">
+                              <h2>Education</h2>
+                              <p>Class 12 - Commerce, CBSE Board 2025</p>
+                              <p>Class 10 - CBSE Board 2023</p>
+                              <p>School Name - Prudence Scool, Ashok Vihar</p>
+                              <p>Pursuing B.com(Hons.) from Delhi University and BBA(DBE) from IIM Bangalore</p>
+                              </p>
+                           </section>
+                           
+                           <section class="card">
+                               <h2>Skills</h2>  
+                               <ul>
+                                  <li>HTML</li>
+                                  <li>CSS</li>
+                                  <li>Communication</li>
+                                  <li>Teamwork</li>
+                                  <li>Financial Accounting</li>
+                                  <li>Marketing</li>
+                               </ul>
+                           </section>
+                           
+                           <!-- Contact -->
+                           <div class="card">
+                              <h2>Contact</h2>
+                              <p>Email:anvaiksha@gmail.com</p>
+                              <P>Phone:7982830591</P>
+                           </div>   
+    
+    
+</body>
+</html>
